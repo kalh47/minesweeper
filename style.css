@@ -1,0 +1,50 @@
+.cell {
+    background: lightgrey;
+    width: 40px;
+    height: 40px;
+    /* border-width: 1px; */
+    border-top: solid grey;
+    border-left: solid grey;
+    margin: 0;
+    display:block;
+    -webkit-user-drag: none;
+}
+
+.covered {
+    color: lightgrey;
+    background-color: lightgrey;
+}
+
+.uncovered {
+    color: blue;
+    /* color: lightgrey; */
+    background-color: white;
+}
+
+.uncovered-mine {
+    color: black;
+    /* color: lightgrey; */
+    background-color: white;
+}
+
+.flagged {
+    color: red;
+    background-color: red;
+}
+
+.line {
+    display: flex;
+}
+
+.p {
+    vertical-align: middle;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-block: 0.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
